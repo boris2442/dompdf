@@ -10,6 +10,7 @@
       background-color: #f5f5f5;
       margin: 0;
       padding: 20px;
+      border: none;
     }
 
     .cv-container {
@@ -49,7 +50,7 @@
       margin-top: 20px;
     }
 
-    .print-link a {
+    .print-link button {
       text-decoration: none;
       color: white;
       background-color: #0077b6;
@@ -59,7 +60,7 @@
       transition: background 0.3s ease;
     }
 
-    .print-link a:hover {
+    .print-link button:hover {
       background-color: #023e8a;
     }
 
@@ -116,7 +117,8 @@
     </section>
 
     <div class="print-link">
-      <a href="#" onclick="window.print(); return false;">🖨️ Imprimer ce CV</a>
+      <button onclick="window.print(); return false;">🖨️ Imprimer ce CV</button>
+      <!-- <a href="facture.php" >🖨️ Imprimer ce CV</a> -->
     </div>
   </div>
 
